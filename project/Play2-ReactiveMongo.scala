@@ -2,7 +2,7 @@ import sbt._
 import sbt.Keys._
 
 object BuildSettings {
-  val buildVersion = "0.11.0-SNAPSHOT"
+  val buildVersion = "0.11.0.play23-SNAPSHOT"
 
   val buildSettings = Defaults.defaultSettings ++ Seq(
     organization := "org.reactivemongo",
